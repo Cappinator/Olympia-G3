@@ -80,7 +80,7 @@ d_bind_storm(struct command *c)
 			ilist_rem_value(&p->bound_storms, storm);
 	}
 
-	p_misc(storm)->bind_storm = storm;
+	p_misc(storm)->bind_storm = ship;
 	p = p_subloc(ship);
 	ilist_append(&p->bound_storms, storm);
 
