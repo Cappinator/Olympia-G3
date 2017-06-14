@@ -1296,16 +1296,25 @@ stack_capacity_report(int pl)
 	next_unit;
 }
 
+static int
+str_comp(char **a, char **b)
+{
+	return strcmp(*b, *a);
+}
 
 void
 player_report()
 {
-	int pl;
+	int pl, i, first;
+	struct entity_player *p;
+	char **emails = NULL;
 
 	stage("player_report()");
 
 	out_path = MASTER;
 	out_alt_who = OUT_BANNER;
+
+	plist_clear((plist *) &emails);
 
 	loop_player(pl)
 	{
@@ -1319,8 +1328,28 @@ player_report()
 		storm_report(pl);
 		garrison_summary(pl);
 		out(pl, "");
+
+		p = p_player(pl);
+		if (p->last_email && p->last_order_turn == sysclock.turn)
+			plist_append((plist *) &emails, p->last_email);
 	}
 	next_player;
+
+	if (plist_len(emails) > 0)
+	{
+		qsort(emails, (unsigned) plist_len(emails), sizeof(*emails), str_comp);
+		i = first = plist_len(emails);
+		while (i > 0)
+		{
+			i--;
+			if (!i || strcmp(emails[i], emails[i - 1]))
+			{
+				if (first - i > 1)
+					fprintf(stderr, "\t%s submitted orders for %d factions!\n", emails[i], first - i);
+				first = i;
+			}
+		}
+	}
 
 	out_path = 0;
 	out_alt_who = 0;
