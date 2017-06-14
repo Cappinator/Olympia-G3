@@ -620,7 +620,7 @@ lines(int who, char *s)
 		*p = '\0';
 
 		out(who, "");
-		wout(who, "<name=\"%s\"><font size=+1><b>%s</b>%s</font>",
+		wout(who, "<p name=\"%s\"><font size=+1><b>%s</b>%s</font>",
 						before, before, after);
 		out(who, "<hr>");
 
