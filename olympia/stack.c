@@ -303,10 +303,6 @@ prisoner_escapes(int who)
 	wout(who, "We escaped!");
 
 	where = subloc(who);
-
-	if (loc_depth(where) <= LOC_province)
-		return;
-
 	out_one = loc(where);
 
 	if (is_ship(where) && subkind(out_one) == sub_ocean)
@@ -322,9 +318,26 @@ prisoner_escapes(int who)
 
 		log_write(LOG_SPECIAL, "!! Someone swam ashore, who=%s",
 						box_code_less(who));
-	}
 
-	move_stack(who, out_one);
+		move_stack(who, out_one);
+	}
+	else if (subkind(where) == sub_ocean)
+	{
+		out_one = find_nearest_land(where);
+
+		wout(who, "After falling into the water we floated on "
+			"driftwood to %s.", box_name(out_one));
+
+		wout(leader, "%s fell from our flight into the water and "
+			"presumably drowned.", just_name(who));
+
+		log_write(LOG_SPECIAL, "!! Someone swam ashore, who=%s",
+						box_code_less(who));
+
+		move_stack(who, out_one);
+	}
+	else if (subkind(out_one) != sub_ocean)
+		move_stack(who, out_one);
 }
 
 
