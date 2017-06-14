@@ -371,7 +371,7 @@ d_vision_protect(struct command *c)
 {
 	int target = c->a;
 
-	if (numargs(c) < 1)
+	if (!target)
 		target = c->who;
 
 	if (!check_still_here(c->who, target))
