@@ -33,7 +33,10 @@ kill_stack_ocean(int who)
 		if (kind(l[i]) == T_char)	/* not dead yet! */
 		{
 			extract_stacked_unit(l[i]);
+			rp_char(l[i])->prisoner = FALSE;
 			where = find_nearest_land(province(l[i]));
+			flush_unit_orders(player(who), who);
+			interrupt_order(who);
 
 			out(l[i], "%s washed ashore at %s.",
 						box_name(l[i]),
@@ -562,6 +565,7 @@ restore_dead_body(int owner, int who)
 
 	pc->health = 100;
 	pc->sick = FALSE;
+	pc->prisoner = FALSE;
 
 	set_where(who, subloc(owner));
 
