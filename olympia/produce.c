@@ -21,6 +21,7 @@ terr_prod[] =
 	{sub_forest,		item_lumber,		30},
 	{sub_sacred_grove,	item_lumber,		5},
 	{sub_tree_circle,	item_lumber,		5},
+	{sub_oasis,		item_lumber,		5},
 
 	{sub_mountain,		item_stone,		MOUNTAIN_STONE},
 	{sub_rocky_hill,	item_stone,		MOUNTAIN_STONE},
