@@ -336,7 +336,7 @@ prisoner_escapes(int who)
 
 		move_stack(who, out_one);
 	}
-	else if (subkind(out_one) != sub_ocean)
+	else if (loc_depth(where) > LOC_province && subkind(out_one) != sub_ocean)
 		move_stack(who, out_one);
 }
 
