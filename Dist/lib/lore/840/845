@@ -1,5 +1,5 @@
-Spell:  Create magical barrier [9160]
-
+#Spell:  Create magical barrier [9160]
+#
 Usage:  USE @@@@ [aura]
 
 Required aura:  one to eight points
