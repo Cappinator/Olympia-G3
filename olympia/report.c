@@ -587,11 +587,6 @@ static void
 char_rep_misc(int who, int num)
 {
 	char *s;
-	struct char_magic *p;
-
-	p = rp_magic(num);
-	if (p && p->ability_shroud)
-		out(who, "Ability shroud: %d aura", p->ability_shroud);
 
 	if (has_skill(num, sk_hide_self))
 	{
