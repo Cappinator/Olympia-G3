@@ -612,8 +612,9 @@ struct char_magic {
 	int project_cast;		/* project next cast */
 	short quick_cast;		/* speed next cast */
 	short ability_shroud;
+	short vis_protect;		/* vision protection level */
 
-	schar hide_mage;		/* hide magician status */
+	short hide_mage;		/* hide magician status */
 	schar hinder_meditation;
 	schar magician;			/* is a magician */
 	schar pray;			/* have prayed */
@@ -621,7 +622,6 @@ struct char_magic {
 	schar hide_self;		/* character is hidden */
 	schar swear_on_release;		/* swear to one who frees us */
 	schar knows_weather;		/* knows weather magic */
-	schar vis_protect;		/* vision protection level */
 	schar default_garr;		/* default initial garrison */
 
 	schar mage_worked;		/* worked this month -- not saved */
