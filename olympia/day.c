@@ -1728,30 +1728,11 @@ special_locs_close()
 }
 
 
-static void
-clear_orders_sent()
-{
-	int pl;
-	struct entity_player *p;
-
-	loop_player(pl)
-	{
-		p = rp_player(pl);
-
-		if (p)
-			p->sent_orders = 0;
-	}
-	next_player;
-}
-
-
 void
 post_month()
 {
 
 	stage("post_month()");
-
-	clear_orders_sent();
 
 	if (oly_month(sysclock) == 2)
 		special_locs_open();

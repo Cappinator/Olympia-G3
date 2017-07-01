@@ -1325,8 +1325,10 @@ player_report()
 		out(pl, "");
 
 		p = p_player(pl);
-		if (p->last_email && p->last_order_turn == sysclock.turn)
+		if (p->last_email && p->sent_orders)
 			plist_append((plist *) &emails, p->last_email);
+
+		p->sent_orders = 0;
 	}
 	next_player;
 
