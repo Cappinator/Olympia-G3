@@ -1,5 +1,5 @@
-Spell:  Remove magical barrier [9161]
-
+#Spell:  Remove magical barrier [9161]
+#
 Usage:  USE @@@@ <direction> [aura]
 
 Required aura:  one to four points, as given
