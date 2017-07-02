@@ -4,7 +4,7 @@ Usage:     BUILD galley "Name of ship"
 or         BUILD roundship "Name of ship"
 
 Requires:  at least three workers [11]
-	   50 wood [77] for a galley, 100 wood for a roundship
+           50 wood [77] for a galley, 100 wood for a roundship
 
 Time:      250 worker-days for a galley, 500 for a roundship
 

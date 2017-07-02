@@ -13,9 +13,9 @@ the current location will be removed.
 The chance that the barrier will be successfully removed is
 proportional to the aura invested in the attempt:
 
-	aura	chance of success
-	----	-----------------
-	 1             10%
-	 2             25%
-	 3	       50%
-	 4	       75%
+        aura    chance of success
+        ----    -----------------
+         1             10%
+         2             25%
+         3             50%
+         4             75%

@@ -11,9 +11,9 @@ Each torture attempt inflicts a 50 point health loss on the prisoner.
 
 The chance of success depends on the prisoner's loyalty:
 
-	loyalty		chance
-	-------		------
-	oath-2		  0%
-	oath-1		 10%
-	contract	 50%
-	fear		100%
+        loyalty         chance
+        -------         ------
+        oath-2            0%
+        oath-1           10%
+        contract         50%
+        fear            100%

@@ -13,8 +13,8 @@ of the mage being blasted.
 Instead of absorbing aura, the blast may be reflected back to the
 attacker.  To set this option, specify a flag of 1:
 
-	use @@@@ 1	# reflect aura blasts back at attacker
-	use @@@@ 0	# absorb aura blasts into current aura
+        use @@@@ 1      # reflect aura blasts back at attacker
+        use @@@@ 0      # absorb aura blasts into current aura
 
 Aura blasts may only be reflected once.  If a blast is reflected back
 to an attacker with knowledge of @@@@, the attacker will be harmed,

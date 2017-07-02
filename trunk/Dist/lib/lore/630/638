@@ -20,8 +20,8 @@ concealment takes zero time.
 Use of the skill will set whether or not the unit is trying to
 hide from view:
 
-	use @@@@ 1	# Hide from view, takes three days
-	use @@@@ 0	# Don't conceal self from view, zero days
+        use @@@@ 1      # Hide from view, takes three days
+        use @@@@ 0      # Don't conceal self from view, zero days
 
 Note that attempts to gain entrance to buildings or ships with
 the MOVE order will subject to the unit to the ADMIT system.

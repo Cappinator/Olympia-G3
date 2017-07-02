@@ -25,10 +25,10 @@ summoned to the province will stack with the noble.
 
 For example:
 
-	make 98 1	# make a drum
-	use @@@@	# use the drum to summon the savages
-	wait time 15	# give savages time to arrive and
-			# stack with us
+        make 98 1       # make a drum
+        use @@@@        # use the drum to summon the savages
+        wait time 15    # give savages time to arrive and
+                        # stack with us
 
 The number of savage units in the world is limited.  If all of the
 available savages have already been summoned, none will come when

@@ -11,8 +11,8 @@ are untrainable to any other kind of man.
 
 Examples:
 
-	train 23	# train all peasants to angry peasants
-	train 23 5	# train five peasants into angry peasants
-	train 10	# calm all angry peasants back into peasants
+        train 23        # train all peasants to angry peasants
+        train 23 5      # train five peasants into angry peasants
+        train 10        # calm all angry peasants back into peasants
 
 Angry peasants require a monthly maintenance cost of 2 gold each.

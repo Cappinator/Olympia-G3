@@ -14,8 +14,8 @@ Up to 20 aura may be invested in a magical weapon.
 
 Example:
 
-	use @@@@ 5 "Sword of Death"
-	> created Sword of Death [ha53].
+        use @@@@ 5 "Sword of Death"
+        > created Sword of Death [ha53].
 
-	Inventory:
+        Inventory:
            1  Sword of Death [ha53]           0  +25 attack

@@ -13,8 +13,8 @@ Up to 20 aura may be invested in a magical bow.
 
 Example:
 
-	use @@@@ 5 "Hand of Legolas"
-	> created Hand of Legolas [ha53].
+        use @@@@ 5 "Hand of Legolas"
+        > created Hand of Legolas [ha53].
 
-	Inventory:
+        Inventory:
            1  Hand of Legolas [ha53]           0  +25 missile

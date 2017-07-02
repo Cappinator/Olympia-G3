@@ -13,13 +13,13 @@ The next meditate spell issued by the target may fail, resulting
 in the mage not acquiring a point of current aura. The more aura
 invested in @@@@, the greater the chance the target mage will fail:
 
-	aura	chance of failure
-	----	-----------------
-	 1	      10%
-	 2	      25%
-	 3	      50%
-	 4	      75%
-	 5	      90%
+        aura    chance of failure
+        ----    -----------------
+         1            10%
+         2            25%
+         3            50%
+         4            75%
+         5            90%
 
 Hinder meditation [@@@@] directed against mages using Advanced
 Meditiation [813] will cause them to only gain half of the

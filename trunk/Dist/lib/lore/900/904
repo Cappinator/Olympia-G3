@@ -15,14 +15,14 @@ the graveyard's demon lord has been destroyed or banished.
 The amount of aura invested in the summoning determines the
 strength of the demon lord.  The default aura is three points.
 
-	aura	attack/defense
-	----	--------------
-	 3	  (100,100)
-	 4	  (150,150)
-	 5	  (190,190)
-	 6	  (220,220)
-	 7	  (240,240)
-	 8	  (250,250)
+        aura    attack/defense
+        ----    --------------
+         3        (100,100)
+         4        (150,150)
+         5        (190,190)
+         6        (220,220)
+         7        (240,240)
+         8        (250,250)
 
 Each undead accompanying the demon lord fights with attack-10,
 defense-10.
