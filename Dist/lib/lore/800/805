@@ -12,11 +12,11 @@ default is one point.
 
 The more aura invested, the less the chance of failure:
 
-	aura	chance of failure
-	----	-----------------
-	 1	      30%
-	 2	      15%
-	 3	       5%
+        aura    chance of failure
+        ----    -----------------
+         1            30%
+         2            15%
+         3             5%
 
 No healing will take place if the spell fails.  If successful,
 the target will cured of sickness, and the target's health will

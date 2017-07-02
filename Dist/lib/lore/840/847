@@ -13,11 +13,11 @@ located.
 The more aura expended, the greater the chance that the character
 will be located.
 
-	aura	chance of success
-	----	-----------------
-	 1            50%
-	 2            75%
-	 3            90%
+        aura    chance of success
+        ----    -----------------
+         1            50%
+         2            75%
+         3            90%
 
 It is not possible to locate a character in Hades or Faery
 if one is in the real world, and vice-versa.

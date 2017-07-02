@@ -41,10 +41,10 @@ returned.
 
 Examples:
 
-    bribe 5499 750	# Offer [5499] 750 gold to switch factions.
-			# If successful, [5499] will not stack with the
-			# briber.
+    bribe 5499 750      # Offer [5499] 750 gold to switch factions.
+                        # If successful, [5499] will not stack with the
+                        # briber.
 
-    bribe 3409 300 1	# Offer [3409] 300 gold to switch factions.
-			# If successful, [3409] will stack with the briber.
+    bribe 3409 300 1    # Offer [3409] 300 gold to switch factions.
+                        # If successful, [3409] will stack with the briber.
 

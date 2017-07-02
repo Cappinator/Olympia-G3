@@ -13,8 +13,8 @@ Up to 20 aura may be invested in magical armor.
 
 Example:
 
-	use @@@@ 5 "Shield of Achilles"
-	> created Shield of Achilles [ha53].
+        use @@@@ 5 "Shield of Achilles"
+        > created Shield of Achilles [ha53].
 
-	Inventory:
+        Inventory:
            1  Shield of Achilles [ha53]           0  +25 defense

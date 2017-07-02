@@ -9,13 +9,13 @@ cross-breeding different beasts will produce strange results.
 
 For example:
 
-	To breed two wild horses together:
+        To breed two wild horses together:
 
-		BREED 51 51
+                BREED 51 51
 
-	To attempt a cross-breed of a horse and an ox:
+        To attempt a cross-breed of a horse and an ox:
 
-		BREED 51 76
+                BREED 51 76
 
 Because some animals are often unpredictable and violent, there
 is a 20% chance that one of the breeding parents will be killed
